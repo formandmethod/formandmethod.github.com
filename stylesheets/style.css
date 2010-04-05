@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: 0;
+	outline: none;
+	font-size: 1em;
+}
+
+/* Skinny text */
+/* http://orderedlist.com/articles/thining-text-in-safari-under-snow-leopard */
+body { -webkit-text-stroke:1px transparent; }
+@media only screen and (max-device-width:480px) {
+    body {	
+      -webkit-text-stroke:0 black; 
+    }
+}
+
+
+/* @end */
+
+
+body {
+	font: 15px/20px Calibri, "Myriad Pro", "Lucida Grande", "Lucida Sans", Verdana, sans-serif;
+  color: #0d0d0d;
+	background: #fcfcfc url(/images/pattern.gif) no-repeat -141px 163px;
+}
+body.nobg {
+  background: none;
+}
+body.nobg #logo a{  
+  margin-left: 200px;
+  }
+
+body.nobg h1 {   
+  width: 500px!important;
+  }
+
+body.nobg #main { 
+  width: 600px;
+  left: 200px;
+  }
+body.nobg ul li {
+  list-style-type: circle;
+}
+body.nobg p { 
+  margin-bottom: 20px;
+}
+#logo a { 
+  display:block;
+  background: #fcfcfc url(/images/formandmethod.png) no-repeat 0 0;
+  width: 300px;
+  text-indent:-999999px;
+  height: 50px;
+  margin: 75px 0 0 420px;
+}
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #ff301b;
+}
+a:hover {
+  color: #ff301b;
+  text-decoration: underline;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+#main {
+  position: absolute;
+  left: 420px;
+  top: 145px;
+  width: 400px;
+}
+
+#main h1 {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 380px;
+  color: #444;
+
+}
+#main ul li.title {
+  background: #fff;
+  padding: 3px 50px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+}
+#main ul {
+  margin-top: 28px;
+}
+#main ul li {
+  margin-bottom: 5px;
+}
+
+#main ul span {
+  display:block;
+  float:left;
+  font-size: 10px;
+  font-weight:bold;
+  background: #222;
+  color: #fff;
+  line-height: 12px;
+  padding: 2px 4px;
+  margin-right: 10px;
+  margin-top: 2px;
+  
+  }
