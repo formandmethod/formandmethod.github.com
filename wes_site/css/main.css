@@ -1,0 +1,279 @@
+body {
+  background: #f8f8f8;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  padding: 0 0 40px 0;
+}
+
+strong, em {
+  font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {color: #ff1800;outline: none;}
+  a:hover {opacity: 0.75;}
+  a.button {
+    background: url(../images/homepage_sprites.png) no-repeat;
+    display: block;
+    text-indent: -9999em;
+  }
+
+strong {font-weight: bold;}
+
+
+/***** HR STYLING TO PLUS-SYMBOLS *****/
+hr {
+  background: transparent url(../images/homepage_sprites.png) no-repeat 0 -340px;
+  border: none;
+  display: block;
+  height: 27px;
+  position: relative;
+  z-index: 99999;
+}
+
+  hr#masthead_plus {
+    margin-left: -13px;
+    margin-top: -14px;
+  }
+  
+  hr#services_plus {
+    margin-left: -13px;
+    margin-bottom: -14px;
+  }
+
+
+/***** H1'S *****/
+h1 {
+  background: transparent url(../images/homepage_sprites.png) no-repeat;
+  height: 29px;
+  margin-bottom: 30px;
+  text-indent: -9999em;
+}
+  h1#case_studies { background-position: 0 -367px; width: 195px; }
+  h1#services_we_provide { background-position: -203px -367px; width: 304px; }
+  h1#small_team { background-position: 0 -396px; width: 511px; }
+  
+  
+/***** Set up wrapper div *****/
+#wrapper {
+  background: #fff;
+  border-bottom: 2px solid #d1d1d1;
+  margin: 0 auto 100px;
+  position: relative;
+  width: 957px;
+}
+
+
+/***** HEADER STYLING *****/
+#header {
+  background: #f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 424242;
+}
+#header_inside {
+  border-bottom: 2px solid #1b1b1b;
+  margin: 0 auto;
+  padding: 50px 3px 25px;
+  position: relative;
+  width: 951px;
+}
+  #logo a {
+    background-position: 0 0;
+    height: 23px;
+    width: 210px;
+  }
+  
+  #header ul {
+    bottom: 23px;
+    position: absolute;
+    right: 3px;
+  }
+    #header ul a {height: 15px;}
+    #header ul li {float: left; padding: 0 16px;}
+      #header ul li#our_work a {background-position: 0 -45px; width: 74px;}
+      #header ul li#what_we_do a {background-position: 0 -60px; width: 91px;}
+      #header ul li#blog a {background-position: 0 -75px; width: 36px;}
+      #header ul li#about_us a {background-position: 0 -90px; width: 70px;}
+      #header ul li#twitter a {
+        background-position: 15px -106px; 
+        border-left: 1px solid #c4c4c4;
+        padding-left: 15px;
+        width: 65px;         
+      }
+
+
+/***** MASTHEAD STYLING *****/
+#masthead_section {
+  background: #fff url(../images/bg_dots.png);
+  border-bottom: 1px solid #d1d1d1;
+  margin-top: 100px;
+  padding: 115px 0;
+}
+
+  #masthead_section p {
+    background: transparent url(../images/homepage_sprites.png) no-repeat 0 -187px;
+    height: 153px;
+    margin: 0 auto;
+    text-indent: -9999em;
+    width: 605px;
+  }
+
+a.view_our_work {
+  background-position: 0 -121px;
+  height: 30px;
+  margin: 65px auto 0;
+  width: 169px;
+}
+
+
+/***** CASE STUDIES *****/
+#case_studies_section {
+  padding: 20px 45px
+}
+
+#case_studies_section > ul > li {
+  overflow: hidden;
+  margin: 0 0 30px 0;
+}
+
+.case_study_description {
+  clear: both;
+  color: #151515;
+  float: left;
+  font-size: 1.3em;
+  width: 369px;
+}
+  .case_study_description p {
+    padding-bottom: 1em;
+    line-height: 1.5em;
+  }
+
+.case_study_images {
+  float: right;
+  font-size: 1.2em;
+  margin-left: 45px;
+  text-align: right;
+  width: 431px;
+}
+
+#case_studies_section h2 {
+  background: transparent url(../images/homepage_sprites.png) no-repeat -436px 0;
+  height: 30px;
+  margin: 0 0 20px 0;
+  text-indent: -9999em;
+  width: 169px;
+}
+  #case_studies_section h2#the_score {background-position: -218px 0px;}
+  #case_studies_section h2#community_lend {background-position: -218px -30px;}
+  #case_studies_section h2#targetivity {background-position: -218px -61px;}
+
+
+/***** SERVICES *****/
+#services_section {
+  background: transparent url(../images/bg_dots.png);
+  border-top: 1px solid #d1d1d1;
+  color: #5a5a5a;
+  font-size: 1.2em;
+  overflow: hidden;
+  padding: 25px 45px 100px;
+  position: relative;
+  z-index: 5;
+}
+
+#services_section p { line-height: 1.5em; }
+
+#services_section > ul > li {
+  background: #fff;
+  float: left;
+  margin-left: 34px;
+  padding: 20px;
+  width: 226px;
+}
+
+#services_section li#iphone {
+  margin-left: 0;
+  width: 227px;
+}
+
+#services_section li h2 {
+  background: transparent url(../images/homepage_sprites.png) no-repeat;
+  height: 11px;
+  margin-bottom: 22px;
+  text-indent: -9999em;
+}
+  #services_section li#iphone h2 {background-position: -388px 0; width: 55px;}
+  #services_section li#ipad h2 {background-position: -388px -12px; width: 33px;}
+  #services_section li#web h2 {background-position: -388px -25px; width: 33px;}
+
+
+/***** BANNER *****/
+#banner {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 45px;
+  position: relative;
+}
+  #banner p {
+    background: transparent url(../images/homepage_sprites.png) no-repeat 0 -425px;
+    height: 41px;
+    text-indent: -9999em;
+    width: 523px;
+  }
+  
+  #banner a.visit_our_blog {
+    background-position: 0 -151px;
+    height: 36px;
+    width: 169px;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+  }
+  
+  
+/***** BIOGRAPHIES *****/
+#biographies_section {
+  color: #5a5a5a;
+  font-size: 1.1em;
+  padding: 45px;
+  position: relative;
+}
+  #biographies_section p {line-height: 1.5em;}
+  #biographies_section ul {
+    overflow: hidden;
+  }
+  #biographies_section li {
+    float: left;
+    width: 195px;
+    margin: 0 0 50px 29px;
+  }
+  #biographies_section li#dave, #biographies_section li#lukas {
+    margin-left: 0;
+  }
+  #biographies_section li#lukas {
+    clear: left;
+  }
+  
+  #biographies_section li h2 {
+    background: transparent url(../images/homepage_sprites.png) no-repeat;
+    height: 11px;
+    margin-bottom: 22px;
+    text-indent: -9999em;
+  }
+    #biographies_section li#dave h2 { background-position: -456px 0;}
+    #biographies_section li#mike h2 { background-position: -456px -12px;}
+    #biographies_section li#tyler h2 { background-position: -456px -24px;}
+    #biographies_section li#wes h2 { background-position: -456px -36px;}
+    #biographies_section li#lukas h2 { background-position: -456px -48px;}
+    
+#contact_info {
+  position: absolute;
+  border: 1px solid #d3d3d3;
+  bottom: 95px;
+  font-size: 1.272727em;
+  padding: 45px;
+  right: 45px;
+  width: 553px;
+}
+    
