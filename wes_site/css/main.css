@@ -9,7 +9,7 @@ strong, em {
   font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
 
-a {color: #ff1800;outline: none;}
+a {color: #ff1800;outline: none; text-decoration: none;}
   a:hover {opacity: 0.75;}
   a.button {
     background: url(../images/homepage_sprites.png) no-repeat;
