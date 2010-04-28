@@ -39,8 +39,10 @@ hr {
   }
   
   hr#services_plus {
-    margin-left: -13px;
-    margin-bottom: -14px;
+    margin-left:-13px;
+    margin-top:-12px;
+    position:absolute;
+    width:30px;
   }
 
 
@@ -133,7 +135,7 @@ a.view_our_work {
 
 /***** CASE STUDIES *****/
 #case_studies_section {
-  padding: 20px 45px
+  padding: 33px 45px 15px 45px;
 }
 
 #case_studies_section > ul > li {
@@ -185,7 +187,7 @@ a.view_our_work {
   color: #5a5a5a;
   font-size: 1.2em;
   overflow: hidden;
-  padding: 25px 45px 100px;
+  padding: 32px 45px 100px;
   position: relative;
   z-index: 5;
 }
@@ -233,6 +235,10 @@ a.view_our_work {
   #services_section .column.col_1  {   
     margin-right: 45px;
   }
+  #services_section .column p { 
+    margin-bottom: 20px;
+  }
+
 /***** BANNER *****/
 #banner {
   background-color: #1b1b1b;
@@ -261,7 +267,7 @@ a.view_our_work {
 #biographies_section {
   color: #5a5a5a;
   font-size: 1.1em;
-  padding: 45px;
+  padding: 33px 45px 45px 45px;
   position: relative;
 }
   #biographies_section p {line-height: 1.5em;}
@@ -278,6 +284,7 @@ a.view_our_work {
   }
   #biographies_section li#lukas {
     clear: left;
+    width: 200px;
   }
   
   #biographies_section li h2 {
@@ -294,10 +301,10 @@ a.view_our_work {
     
 #contact_info {
   border-left:1px solid #D3D3D3;
-  bottom:126px;
+  bottom:179px;
   font-size:1.15em;
   height:175px;
-  padding:35px 0 35px 35px;
+  padding:20px 0 35px 35px;
   position:absolute;
   right:45px;
   width:423px;
