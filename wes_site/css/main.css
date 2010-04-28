@@ -299,13 +299,13 @@ a.view_our_work {
     
 #contact_info {
   border:1px solid #D3D3D3;
-  bottom:179px;
+  bottom:133px;
   font-size:1.15em;
   height:175px;
-  padding:20px 0 35px 35px;
+  padding:29px 0 35px 35px;
   position:absolute;
   right:45px;
-  width:423px;
+  width:420px;
 }
     
 #address  {
@@ -315,6 +315,5 @@ a.view_our_work {
   line-height: 19px;
 }
 #contact {
-  float:right;
-  width: 192px;
+  margin:0 30px 20px 0;
 }
