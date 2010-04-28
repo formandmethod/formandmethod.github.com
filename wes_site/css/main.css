@@ -259,6 +259,10 @@ a.view_our_work {
     right: 45px;
     top: 45px;
   }
+  #banner a.visit_our_blog:hover {
+    background-position: -178px -147px;
+    opacity: 1;
+  }
   
   
 /***** BIOGRAPHIES *****/
