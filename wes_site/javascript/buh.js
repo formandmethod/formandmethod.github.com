@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $("#header li a").click(function() {
+  $(".scroll_to").click(function() {
     link = $(this).attr("href");
     offset = $(link).offset();
-    adjustedOffset = offset.top - 100;
+    adjustedOffset = Math.max(offset.top - 100, 0);
     $.scrollTo(adjustedOffset, 500);
     return false;
   });
