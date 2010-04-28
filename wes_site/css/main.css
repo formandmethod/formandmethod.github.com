@@ -300,7 +300,7 @@ a.view_our_work {
     #biographies_section li#lukas h2 { background-position: -456px -48px;}
     
 #contact_info {
-  border-left:1px solid #D3D3D3;
+  border:1px solid #D3D3D3;
   bottom:179px;
   font-size:1.15em;
   height:175px;
