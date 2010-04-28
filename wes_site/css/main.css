@@ -31,8 +31,11 @@ hr {
 }
 
   hr#masthead_plus {
-    margin-left: -13px;
-    margin-top: -14px;
+    margin-left:-14px;
+    margin-top:-12px;
+    position:absolute;
+    width:30px;
+    z-index:3333;
   }
   
   hr#services_plus {
@@ -155,9 +158,14 @@ a.view_our_work {
   font-size: 1.2em;
   margin-left: 45px;
   text-align: right;
-  width: 431px;
+  width: 435px;
 }
-
+.case_study_images {
+  margin-top: 15px;
+}
+.case_study_images img { 
+  margin-top: 15px;
+}
 #case_studies_section h2 {
   background: transparent url(../images/homepage_sprites.png) no-repeat -436px 0;
   height: 30px;
@@ -243,7 +251,7 @@ a.view_our_work {
   #biographies_section ul {
     overflow: hidden;
   }
-  #biographies_section li {
+  #biographies_section #bios li {
     float: left;
     width: 195px;
     margin: 0 0 50px 29px;
@@ -268,12 +276,23 @@ a.view_our_work {
     #biographies_section li#lukas h2 { background-position: -456px -48px;}
     
 #contact_info {
-  position: absolute;
-  border: 1px solid #d3d3d3;
-  bottom: 95px;
-  font-size: 1.272727em;
-  padding: 45px;
-  right: 45px;
-  width: 553px;
+  border-left:1px solid #D3D3D3;
+  bottom:126px;
+  font-size:1.15em;
+  height:175px;
+  padding:35px 0 35px 35px;
+  position:absolute;
+  right:45px;
+  width:423px;
 }
     
+#address  {
+  float:left;
+}
+#address li {
+  line-height: 19px;
+}
+#contact {
+  float:right;
+  width: 192px;
+}
