@@ -217,12 +217,22 @@ a.view_our_work {
   margin-left:0;
   margin-bottom: 30px;
   width: 825px;
+  overflow:hidden;
 }
+
+
+  #services_section li#philosophy_and_process h2 {background-position:-388px -148px; width:218px;}
   #services_section li#iphone h2 {background-position: -388px 0; width: 55px;}
   #services_section li#ipad h2 {background-position: -388px -12px; width: 33px;}
   #services_section li#web h2 {background-position: -388px -25px; width: 33px;}
 
-
+  #services_section .column {
+    float:left;
+    width:380px;
+  }
+  #services_section .column.col_1  {   
+    margin-right: 45px;
+  }
 /***** BANNER *****/
 #banner {
   background-color: #1b1b1b;
