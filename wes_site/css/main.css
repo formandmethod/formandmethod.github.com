@@ -56,7 +56,7 @@ h1 {
 }
   h1#case_studies { background-position: 0 -367px; width: 195px; }
   h1#services_we_provide { background-position: -203px -367px; width: 304px; }
-  h1#small_team { background-position: 0 -396px; width: 511px; }
+  h1#small_team { background-position: 0 -396px; width: 535px; }
   
   
 /***** Set up wrapper div *****/
@@ -258,6 +258,10 @@ a.view_our_work {
     position: absolute;
     right: 45px;
     top: 45px;
+  }
+  #banner a.visit_our_blog:hover {
+    background-position: -178px -147px;
+    opacity: 1;
   }
   
   
