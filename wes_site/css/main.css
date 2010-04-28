@@ -192,7 +192,7 @@ a.view_our_work {
   z-index: 5;
 }
 
-#services_section p { line-height: 1.5em; }
+#services_section p { line-height: 1.5em; padding-bottom: 1em;}
 
 #services_section > ul > li {
   background: #fff;
@@ -234,9 +234,6 @@ a.view_our_work {
   }
   #services_section .column.col_1  {   
     margin-right: 45px;
-  }
-  #services_section .column p { 
-    margin-bottom: 20px;
   }
 
 /***** BANNER *****/
