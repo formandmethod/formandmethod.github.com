@@ -21,7 +21,7 @@ strong {font-weight: bold;}
 
 
 /***** HR STYLING TO PLUS-SYMBOLS *****/
-hr {
+div.hr {
   background: transparent url(../images/homepage_sprites.png) no-repeat 0 -340px;
   border: none;
   display: block;
@@ -29,8 +29,9 @@ hr {
   position: relative;
   z-index: 99999;
 }
+  div.hr hr {display: none;}
 
-  hr#masthead_plus {
+  div.hr#masthead_plus {
     margin-left:-14px;
     margin-top:-12px;
     position:absolute;
@@ -38,9 +39,11 @@ hr {
     z-index:3333;
   }
   
-  hr#services_plus {
-    margin-left: -13px;
-    margin-bottom: -14px;
+  div.hr#services_plus {
+    margin-left:-13px;
+    margin-top:-12px;
+    position:absolute;
+    width:30px;
   }
 
 
@@ -133,7 +136,7 @@ a.view_our_work {
 
 /***** CASE STUDIES *****/
 #case_studies_section {
-  padding: 20px 45px
+  padding: 33px 45px 15px 45px;
 }
 
 #case_studies_section > ul > li {
@@ -185,12 +188,12 @@ a.view_our_work {
   color: #5a5a5a;
   font-size: 1.2em;
   overflow: hidden;
-  padding: 25px 45px 100px;
+  padding: 32px 45px 100px;
   position: relative;
   z-index: 5;
 }
 
-#services_section p { line-height: 1.5em; }
+#services_section p { line-height: 1.5em; padding-bottom: 1em;}
 
 #services_section > ul > li {
   background: #fff;
@@ -211,10 +214,28 @@ a.view_our_work {
   margin-bottom: 22px;
   text-indent: -9999em;
 }
+#services_section li#philosophy_and_process { 
+  float:none; 
+  clear:both;
+  margin-left:0;
+  margin-bottom: 30px;
+  width: 825px;
+  overflow:hidden;
+}
+
+
+  #services_section li#philosophy_and_process h2 {background-position:-388px -148px; width:218px;}
   #services_section li#iphone h2 {background-position: -388px 0; width: 55px;}
   #services_section li#ipad h2 {background-position: -388px -12px; width: 33px;}
   #services_section li#web h2 {background-position: -388px -25px; width: 33px;}
 
+  #services_section .column {
+    float:left;
+    width:380px;
+  }
+  #services_section .column.col_1  {   
+    margin-right: 45px;
+  }
 
 /***** BANNER *****/
 #banner {
@@ -244,7 +265,7 @@ a.view_our_work {
 #biographies_section {
   color: #5a5a5a;
   font-size: 1.1em;
-  padding: 45px;
+  padding: 33px 45px 45px 45px;
   position: relative;
 }
   #biographies_section p {line-height: 1.5em;}
@@ -261,6 +282,7 @@ a.view_our_work {
   }
   #biographies_section li#lukas {
     clear: left;
+    width: 200px;
   }
   
   #biographies_section li h2 {
@@ -276,14 +298,14 @@ a.view_our_work {
     #biographies_section li#lukas h2 { background-position: -456px -48px;}
     
 #contact_info {
-  border-left:1px solid #D3D3D3;
-  bottom:126px;
+  border:1px solid #D3D3D3;
+  bottom:133px;
   font-size:1.15em;
   height:175px;
-  padding:35px 0 35px 35px;
+  padding:29px 0 35px 35px;
   position:absolute;
   right:45px;
-  width:423px;
+  width:420px;
 }
     
 #address  {
@@ -293,6 +315,5 @@ a.view_our_work {
   line-height: 19px;
 }
 #contact {
-  float:right;
-  width: 192px;
+  margin:0 30px 20px 0;
 }
