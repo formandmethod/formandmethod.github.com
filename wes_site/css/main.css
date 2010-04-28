@@ -21,7 +21,7 @@ strong {font-weight: bold;}
 
 
 /***** HR STYLING TO PLUS-SYMBOLS *****/
-hr {
+div.hr {
   background: transparent url(../images/homepage_sprites.png) no-repeat 0 -340px;
   border: none;
   display: block;
@@ -29,8 +29,9 @@ hr {
   position: relative;
   z-index: 99999;
 }
+  div.hr hr {display: none;}
 
-  hr#masthead_plus {
+  div.hr#masthead_plus {
     margin-left:-14px;
     margin-top:-12px;
     position:absolute;
@@ -38,7 +39,7 @@ hr {
     z-index:3333;
   }
   
-  hr#services_plus {
+  div.hr#services_plus {
     margin-left:-13px;
     margin-top:-12px;
     position:absolute;
