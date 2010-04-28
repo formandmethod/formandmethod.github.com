@@ -211,6 +211,13 @@ a.view_our_work {
   margin-bottom: 22px;
   text-indent: -9999em;
 }
+#services_section li#philosophy_and_process { 
+  float:none; 
+  clear:both;
+  margin-left:0;
+  margin-bottom: 30px;
+  width: 825px;
+}
   #services_section li#iphone h2 {background-position: -388px 0; width: 55px;}
   #services_section li#ipad h2 {background-position: -388px -12px; width: 33px;}
   #services_section li#web h2 {background-position: -388px -25px; width: 33px;}
