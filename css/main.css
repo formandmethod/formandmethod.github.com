@@ -327,7 +327,8 @@ a.view_our_work {
 /* fixes for weird element heights on ipad/iphone */
 .iDevice h1 {height: 28px;}
 .iDevice div.hr {height: 26px;}
-.iDevice #masthead_section p {height: 152px;}
+.iDevice #masthead_section p {height: 151px;}
 .iDevice #case_studies_section h2 {height: 29px;}
 .iDevice #biographies_section li h2, #services_section li h2 {height: 10px;}
 .iDevice #banner p {height: 40px;}
+.iDevice #header li.twitter a {height: 14px;}
