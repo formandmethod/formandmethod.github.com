@@ -1,6 +1,6 @@
 $(document).ready(function() {
   if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1)) {
-    
+    $("#testing").css("color", "#ff0000")
   }
   else {
     $(".scroll_to").click(function() {
