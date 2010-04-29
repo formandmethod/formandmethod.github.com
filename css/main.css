@@ -333,12 +333,3 @@ a.view_our_work {
 .iDevice #banner p {height: 40px;}
 .iDevice #header li#twitter a {height: 14px;}
 
-/* fixed header on iDevices */
-.iDevice body {min-height: 316px;}
-.iDevice #wrapper {height: 324px;}
-.iDevice body.scrolled #container {height: 263px;}
-.iDevice body[orient="landscape"] #container {height: 176px;}
-.iDevice body.scrolled[orient="landscape"] #container {height: 115px;}
-
-
-
