@@ -283,14 +283,9 @@ a.view_our_work {
     width: 195px;
     margin: 0 0 50px 29px;
   }
-  #biographies_section li#dave, #biographies_section li#lukas {
-    margin-left: 0;
-  }
-  #biographies_section li#lukas {
-    clear: left;
-    width: 200px;
-  }
-  
+  #biographies_section #bios li#dave {
+    margin-left: 0px;
+  }  
   #biographies_section li h2 {
     background: transparent url(../images/homepage_sprites.png) no-repeat;
     height: 11px;
@@ -304,14 +299,12 @@ a.view_our_work {
     #biographies_section li#lukas h2 { background-position: -456px -48px;}
     
 #contact_info {
-  border:1px solid #D3D3D3;
+  border-top:1px solid #D3D3D3;
   bottom:133px;
   font-size:1.15em;
   height:175px;
-  padding:29px 0 35px 35px;
-  position:absolute;
+  padding:29px 0 35px 0px;
   right:45px;
-  width:420px;
 }
     
 #address  {
@@ -330,7 +323,7 @@ a.view_our_work {
 .iDevice div.hr {height: 26px;}
 .iDevice #masthead_section p {height: 151px; background-position: 0 -188px;}
 .iDevice #case_studies_section h2 {height: 29px;}
-.iDevice #biographies_section li h2, #services_section li h2 {height: 10px;}
+.iDevice #biographies_section li h2, #services_section li h2 {height: 11px;}
 .iDevice #banner p {height: 40px;}
 .iDevice #header li#twitter a {height: 14px;}
 
