@@ -116,15 +116,16 @@ h1 {
   background: #fff url(../images/bg_dots.png);
   border-bottom: 1px solid #d1d1d1;
   margin-top: 100px;
-  padding: 115px 0;
+  padding: 150px 0 100px;
 }
 
   #masthead_section p {
-    background: transparent url(../images/homepage_sprites.png) no-repeat 0 -187px;
+    /*background: transparent url(../images/homepage_sprites.png) no-repeat 0 -187px;*/
     height: 153px;
     margin: 0 auto;
-    text-indent: -9999em;
     width: 605px;
+    font-size: 2.2em;
+    text-align: center;
   }
 
 a.view_our_work {
